@@ -9,6 +9,7 @@ Note: 1 represents male, 0 represents female, and 2 represents other for the sim
 2. **Assignment 2** - This code builds on assignment 1. The assignment 1 code for gender encoding with 1 and 0 was used (dummy variables were **not** used in this assignment). SBP and GCS were cleaned based on method used in tutorial 2. DBP was the chosen column which was also cleaned to remove all non-number values. The median was used for imputing all NaNs and out-of-range values. <br>
 Note: All unique/missing variables that did not meet the desired format were removed in the columns: Gender, SBP, DBP and GCS. <br>
 3. **Assignment 3** - This asisgnment focuses on data visualization. It takes the cleaned data (all columns) and uses it to evaluate several clinical questions. These are: <br>
-     * What is the distribution of MAP that patients come to the ED with? Based on this, how patients can be said to be exhibiting symptoms of hypotension & hypertension?
-     * Is there a relationship between FIO2 and Respiratory Rate in these patients?
-     * Is there a relationship between MAP and Age in these patients? Does MAP increase/decrease with age on average?
+     * What is the distribution of MAP that patients come to the ED with? Based on this, how patients can be said to be exhibiting symptoms of hypotension & hypertension? - done using a histogram.
+     * Is there a relationship between FIO2 and Respiratory Rate in these patients? - done using a scatter plot.
+     * Is there a relationship between MAP and Age in these patients? Does MAP increase/decrease with age on average? - done using a scatter plot.
+ 
