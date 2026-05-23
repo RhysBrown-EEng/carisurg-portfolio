@@ -13,4 +13,5 @@ Note: All unique/missing variables that did not meet the desired format were rem
      * What is the distribution of MAP that patients come to the ED with? Based on this, how patients can be said to be exhibiting symptoms of hypotension & hypertension? - done using a histogram.
      * Is there a relationship between FIO2 and Respiratory Rate in these patients? - done using a scatter plot.
      * Is there a relationship between MAP and Age in these patients? Does MAP increase/decrease with age on average? - done using a scatter plot.
+4. **Assignment 4** -  This assignment describes the Glasgow Comma Scale, its use, calculations and overall cinical relevance.
  
