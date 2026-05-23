@@ -1,9 +1,9 @@
 
 ## **Overview:**
-<p>This repo shows the various assignments done in `Week 0` of the Carisurg AI Healthcare Training Program. </p>
+<p>This repo shows the various assignments done in Week 0 of the Carisurg AI Healthcare Training Program. </p>
 
 ## **Week 0 Assignments:**
-All assignments listed below can be found in the **week-0** folder :
+All assignments listed below can be found in the `week-0` folder :
 
 1. **Assignment 1** - This code cleans the gender column of the Emergency Triage Dataset. The dataset had various inconsistencies which were corrected. Other gender identities beyond male and female are encoded via an "Other" category. I have 2 implementations in the notebook: one for simple mapping and one which uses dummy variables. <br>
 Note: 1 represents male, 0 represents female, and 2 represents other for the simple mapping. <br>
