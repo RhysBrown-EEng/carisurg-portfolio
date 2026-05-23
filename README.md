@@ -1,6 +1,6 @@
 
 ## **Overview:**
-<p>This repo shows the various assignments done in `Week 0` of the Carisurg AI Healthcare Training Program. </p>
+<p>This repo shows the various assignments done in ` Week 0 ` of the Carisurg AI Healthcare Training Program. </p>
 
 ## **Week 0 Assignments:**
 All assignments listed below can be found in the **week-0** folder :
