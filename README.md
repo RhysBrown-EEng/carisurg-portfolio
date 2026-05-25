@@ -12,7 +12,7 @@ All assignments listed below can be found in the `week-0` folder :
 3. **Assignment 3** - This assignment focuses on data visualization. It takes the cleaned data (all columns) and uses it to evaluate several clinical questions. These are: <br>
      * What is the distribution of MAP that patients come to the ED with? Based on this, how patients can be said to be exhibiting symptoms of hypotension & hypertension? - done using a histogram.
      * Is there a relationship between FIO2 and Respiratory Rate in these patients? - done using a scatter plot.
-     * Is there a relationship between MAP and Age in these patients? Does MAP increase/decrease with age on average? - done using a scatter plot.
+     * Is there a relationship between MAP and Age in these patients? Does MAP increase/decrease with age on average? - done using a scatter plot. <br>
 Found under file name: `Assignment_3_Rhys_Brown.ipynb` <br>
 4. **Assignment 4** -  This assignment describes the Glasgow Comma Scale, its use, calculations and overall cinical relevance in triaging.
    Found under file name: `Assignment_4-Rhys_Brown.pdf` <br>
