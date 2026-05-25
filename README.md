@@ -14,4 +14,5 @@ Note: All unique/missing variables that did not meet the desired format were rem
      * Is there a relationship between FIO2 and Respiratory Rate in these patients? - done using a scatter plot.
      * Is there a relationship between MAP and Age in these patients? Does MAP increase/decrease with age on average? - done using a scatter plot.
 4. **Assignment 4** -  This assignment describes the Glasgow Comma Scale, its use, calculations and overall cinical relevance in triaging.
+5. **Assignment 5** -  This assignment describes an unconsidered metric that would be crucial in triage, SpO2. This assignment discusses its use, calculations and overall cinical relevance in triaging.
  
