@@ -18,4 +18,6 @@ Found under file name: `Assignment_3_Rhys_Brown.ipynb` <br>
    Found under file name: `Assignment_4-Rhys_Brown.pdf` <br>
 6. **Assignment 5** -  This assignment describes an unconsidered metric that would be crucial in triage, SpO2. This assignment discusses its use, calculations and overall cinical relevance in triaging.
    Found under file name: `Assignment_5-Rhys_Brown.pdf` <br>
+7. **Assignment 6** -  This assignment proposes the logic for a digital triage system. The system incorporates the different needs of patients, requirements for unified record keeping and the assistantance of aritifical intelligence for assigning traige levels in a complex varaible envirnonemt. Found under file name: `Assignment_6-Rhys_Brown.pdf` <br>
+ 
  
