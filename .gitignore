@@ -1,5 +1,6 @@
 #PROJECT SPECIFIC FILES
-#Ignore all files in raw to not expose patient data.
+#Ignore all files in data and data/raw to not expose patient data.
+data
 data/raw/
 
 #GENERIC .gitignore FILES
