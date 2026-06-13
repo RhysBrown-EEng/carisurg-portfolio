@@ -1,23 +1,82 @@
-# **Carisurg AI Healthcare Training Program:**
-## **Overview:**
-<p>This repo shows the various assignments done in the Carisurg AI Healthcare Training Program. </p>
+# CariSurg AI Healthcare Training Program Portfolio
 
-## **Week 0 Assignments:**
-All assignments listed below can be found in the `week-0` folder :
+## Overview
 
-1. **Assignment 1** - This code cleans the gender column of the Emergency Triage Dataset. The dataset had various inconsistencies which were corrected. Other gender identities beyond male and female are encoded via an "Other" category. I have 2 implementations in the notebook: one for simple mapping and one which uses dummy variables. Found under file name: `Assignment_1_Rhys_Brown.ipynb` <br>
-***Note:*** 1 represents male, 0 represents female, and 2 represents other for the simple mapping. <br>
-2. **Assignment 2** - This code builds on assignment 1. The assignment 1 code for gender encoding with 1 and 0 was used (dummy variables were **not** used in this assignment). SBP and GCS were cleaned based on method used in tutorial 2. DBP was the chosen column which was also cleaned to remove all non-number values. The median was used for imputing all NaNs and out-of-range values. Found under file name: `Assignment_2_Rhys_Brown.ipynb` <br>
-***Note:*** All unique/missing variables that did not meet the desired format were removed in the columns: Gender, SBP, DBP and GCS. <br>
-3. **Assignment 3** - This assignment focuses on data visualization. It takes the cleaned data (all columns) and uses it to evaluate several clinical questions. These are: <br>
-     * What is the distribution of MAP that patients come to the ED with? Based on this, how patients can be said to be exhibiting symptoms of hypotension & hypertension? - done using a histogram.
-     * Is there a relationship between FIO2 and Respiratory Rate in these patients? - done using a scatter plot.
-     * Is there a relationship between MAP and Age in these patients? Does MAP increase/decrease with age on average? - done using a scatter plot. <br>
-Found under file name: `Assignment_3_Rhys_Brown.ipynb` <br>
-4. **Assignment 4** -  This assignment describes the Glasgow Comma Scale, its use, calculations and overall cinical relevance in triaging.
-   Found under file name: `Assignment_4-Rhys_Brown.pdf` <br>
-6. **Assignment 5** -  This assignment describes an unconsidered metric that would be crucial in triage, SpO2. This assignment discusses its use, calculations and overall cinical relevance in triaging.
-   Found under file name: `Assignment_5-Rhys_Brown.pdf` <br>
-7. **Assignment 6** -  This assignment proposes the logic for a digital triage system. The system incorporates the different needs of patients, requirements for unified record keeping and the assistantance of aritifical intelligence for assigning traige levels in a complex varaible envirnonemt. Found under file name: `Assignment_6-Rhys_Brown.pdf` <br>
+This repository contains assignments completed as part of the CariSurg AI Healthcare Training Program. The work focuses on clinical data analysis, alongside an exploration of the implementation and potential effectiveness of AI-assisted emergency triage systems.
+
+
+This project is intended for programme tutors, clinical and technical reviewers, recruiters, and others interested in the application of AI in emergency triage and healthcare more broadly. It is structured to remain accessible to non-technical clinical reviewers.
+
+
+## Project Structure
+```text id="structure"
+carisurg-portfolio/
+│
+├── data/
+├── docs/
+├── notebooks/
+├── src/
+├── .gitignore
+├── requirements.txt
+├── LICENSE
+└── README.md
+```
+
+## Installation
+1. Clone the repository and open it:
+```
+git clone https://github.com/RhysBrown-EEng/carisurg-portfolio.git
+cd carisurg-portfolio
+```
+2. Create a virtual environment and then activate it:
+
+| Step | Windows | macOS / Linux |
+|------|--------|----------------|
+| Create virtual environment | `python -m venv .venv` | `python3 -m venv .venv` |
+| Activate virtual environment | `.venv\Scripts\activate` | `source .venv/bin/activate` |
+
+3. Install the dependencies:
+```
+pip install -r requirements.txt
+```
+
+## How to Use
+The notebooks can be run using either Jupyter Notebook or Google Colab. Follow the instructions corresponding to your preferred environment. 
+<br> <br>
+Using Jupyter Notebook:
+1. Launch Jupyter Notebook:
+```
+jupyter notebook
+```
+2. Navigate to `notebooks/` directory in this repository.
+3. Select from the available sub-folders and open your desired notebook.
+4. Run all cells sequentially.
+
+<br>
+
+Using Google Colab:
+1. Navigate to `notebooks/` directory in this repository.
+2. Select from the available sub-folders and open your desired notebook.
+3. Upload the notebook file to Google Colab (or open directly from GitHub). 
+4. Open the notebook and run all cells sequentially.
+
+**NOTE:** Notebooks are designed to be independent of one another and can be run in any order unless otherwise specified.
+
+## Data
+The dataset used in this project is not included in this repository due to privacy and governance reasons. 
+
+To reproduce the analysis, users must provide the dataset separately and place it in the `data/` directory prior to execution of the notebooks.
+
+## Contributing
+This repository represents a personal portfolio within the CariSurg AI Healthcare Training Program.  
+Consequently, contributions are not being accepted at this time.
+
+However, feedback and suggestions from tutors, clinical or technical reviewers, or any interested party are always welcome.
+
+## License
+This project is licensed under the MIT License.
+
+See the `LICENSE` file for full details.
+
  
  
