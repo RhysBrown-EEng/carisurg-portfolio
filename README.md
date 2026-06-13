@@ -71,7 +71,7 @@ To reproduce the analysis, users must provide the dataset separately and place i
 This repository represents a personal portfolio within the CariSurg AI Healthcare Training Program.  
 Consequently, contributions are not being accepted at this time.
 
-However, feedback and suggestions from tutors, clinical or technical reviewers, or any interested party are always welcome.
+However, feedback and suggestions from tutors, clinical or technical reviewers, or any other interested party are always welcome.
 
 ## License
 This project is licensed under the MIT License.
