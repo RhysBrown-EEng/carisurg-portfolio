@@ -1,8 +1,8 @@
-# CariSurg AI Healthcare Training Program Portfolio
+# CariSurg AI Healthcare Training Programme Portfolio
 
 ## Overview
 
-This repository contains assignments completed as part of the CariSurg AI Healthcare Training Program. The work focuses on clinical data analysis, alongside an exploration of the implementation and potential effectiveness of AI-assisted emergency triage systems.
+This repository contains assignments completed as part of the CariSurg AI Healthcare Training Programme. The work focuses on clinical data analysis, alongside an exploration of the implementation and potential effectiveness of AI-assisted emergency triage systems. This project explores digital healthcare solutions for the Caribbean context, with a focus on improving emergency department triage and patient prioritisation.
 
 
 This project is intended for programme tutors, clinical and technical reviewers, recruiters, and others interested in the application of AI in emergency triage and healthcare more broadly. It is structured to remain accessible to non-technical clinical reviewers.
@@ -21,6 +21,13 @@ carisurg-portfolio/
 ├── LICENSE
 └── README.md
 ```
+
+| Directory | Description |
+|------------|-------------|
+| `data/` | Stores the datasets required to reproduce the analyses. Specific data files are not included in this repository. See [Data](#data) for more details.|
+| `docs/` |  Stores the reports, proposals and written assignments completed during the programme. |
+| `notebooks/` | Jupyter notebooks containing data preprocessing, data analysis and other project notebook files. |
+| `src/` | Source code and reusable Python scripts developed during the programme. |
 
 ## Installation
 1. Clone the repository and open it:
@@ -63,12 +70,12 @@ Using Google Colab:
 **NOTE:** Notebooks are designed to be independent of one another and can be run in any order unless otherwise specified.
 
 ## Data
-The dataset used in this project is not included in this repository due to privacy and governance reasons. 
+The datasets used in this project were provided by the [CariSurg](https://carisurg.com/) team. They are not included in this repository due to privacy and governance reasons. 
 
 To reproduce the analysis, users must provide the dataset separately and place it in the `data/` directory prior to execution of the notebooks.
 
 ## Contributing
-This repository represents a personal portfolio within the CariSurg AI Healthcare Training Program.  
+This repository represents a personal portfolio within the CariSurg AI Healthcare Training Programme.  
 Consequently, contributions are not being accepted at this time.
 
 However, feedback and suggestions from tutors, clinical or technical reviewers, or any other interested party are always welcome.
@@ -77,6 +84,13 @@ However, feedback and suggestions from tutors, clinical or technical reviewers, 
 This project is licensed under the MIT License.
 
 See the `LICENSE` file for full details.
+
+## Author
+Rhys Brown <br>
+rhysdzbrown@gmail.com
+
+CariSurg MedTech Pathways Programme, Healthcare AI Cohort (2026)<br>
+https://carisurg.com/
 
  
  
