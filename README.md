@@ -88,7 +88,7 @@ See the `LICENSE` file for full details.
 ## Author
 Rhys Brown <br>
 rhysdzbrown@gmail.com
-<br>
+<br> <br>
 CariSurg MedTech Pathways Programme, Healthcare AI Cohort (2026)<br>
 https://carisurg.com/
 
