@@ -24,10 +24,10 @@ carisurg-portfolio/
 
 | Directory | Description |
 |------------|-------------|
-| `data/` | Stores the datasets required to reproduce the analyses. Specific data files are not included in this repository. See [Data](#data) for more details.|
-| `docs/` |  Stores the reports, proposals and written assignments completed during the programme. |
-| `notebooks/` | Jupyter notebooks containing data preprocessing, data analysis and other project notebook files. |
-| `src/` | Source code and reusable Python scripts developed during the programme. |
+| `data/` | Datasets required to reproduce the analyses. Specific data files are not included in this repository. See [Data](#data) and [How to Use](#how-to-use) for more details.|
+| `docs/` |  Reports, proposals and written assignments completed during the programme. |
+| `notebooks/` | Jupyter notebooks containing data preprocessing, data analysis and other project-related code. |
+| `src/` | Source code and reusable Python scripts. |
 
 ## Installation
 1. Clone the repository and open it:
@@ -37,10 +37,10 @@ cd carisurg-portfolio
 ```
 2. Create a virtual environment and then activate it:
 
-| Step | Windows | macOS / Linux |
-|------|--------|----------------|
-| Create virtual environment | `python -m venv .venv` | `python3 -m venv .venv` |
-| Activate virtual environment | `.venv\Scripts\activate` | `source .venv/bin/activate` |
+| Step | Windows | macOS / Linux | Git Bash      |
+|------|--------|----------------|----------------|
+| Create virtual environment | `python -m venv .venv` | `python3 -m venv .venv` | `python -m venv .venv` |
+| Activate virtual environment | `.venv\Scripts\activate` | `source .venv/bin/activate` | `source .venv/bin/activate` |
 
 3. Install the dependencies:
 ```

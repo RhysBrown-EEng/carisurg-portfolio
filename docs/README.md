@@ -1,23 +1,28 @@
 # Documentation
 
-This directory contains written documentation produced as part of the CariSurg AI Healthcare Training Program.
+This directory contains documentation produced as part of the CariSurg AI Healthcare Training Programme.
 
 The documents complement the technical notebooks in `notebooks/` and provide clinical and conceptual context for the work.
 
----
 
 ## Contents
 
-### Week 0 — Clinical Triage Exploratory Analysis
-Contains documents exploring various health metric indicators that can be used for AI-assisted triage. It also covers a basic pseudocode framework for an AI-assisted triage decision support system. Associated documents found in `docs/week-0`
+### Week 0 - Clinical Triage Exploratory Analysis
+This section contains documents exploring key physiological and clinical indicators relevant to AI-assisted triage. It also includes a basic pseudocode framework for a triage decision support system. <br>
+Files located in `docs/week-0/`:
+- `assignment4_vital_sign_description.pdf`
+- `assignment5_unconsidered_metrics.pdf`
+- `assignment6_triage_pseudocode.pdf` <br>
 
-### Week 1 — AI-Assisted Emergency Triage Memo
-This document provides a structured discussion on the potential application of AI in emergency department triage. Associated document found in `docs/week-1`
+### Week 1 - AI-Assisted Emergency Triage Memo
+This section contains a structured discussion on the application of AI in emergency department triage, along with a brief review of relevant literature. <br> 
+Files located in `docs/week-1/`:
+- `preliminary_proposal.pdf`
 
 
 ## Purpose
 
-These documents are intended to translate technical findings into clinically meaningful insights for:
+These documents translate technical analysis into clinically meaningful insights for:
 - Programme tutors
 - Clinical reviewers
 - Technical reviewers
