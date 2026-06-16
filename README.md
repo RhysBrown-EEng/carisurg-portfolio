@@ -47,7 +47,7 @@ cd carisurg-portfolio
 pip install -r requirements.txt
 ```
 
-## How to Use
+## Usage
 The notebooks can be run using either Jupyter Notebook or Google Colab. Follow the instructions corresponding to your preferred environment. 
 <br> <br>
 Using Jupyter Notebook:
