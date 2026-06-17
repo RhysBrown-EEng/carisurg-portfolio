@@ -19,6 +19,11 @@ This section contains a structured discussion on the application of AI in emerge
 Files located in `docs/week-1/`:
 - `preliminary_proposal.pdf`
 
+### Week 2 - Literature Review Tools
+This section explored the use of Zotero and Git to enhance project workflows. The final submission included a proposal done using these tools.<br> 
+Files located in `docs/week-2/`:
+- `updated-preliminary-proposal.pdf`
+
 
 ## Purpose
 
