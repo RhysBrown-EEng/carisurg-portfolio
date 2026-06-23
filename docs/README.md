@@ -28,6 +28,8 @@ Files located in `docs/week-2/`:
 This section explored the system think to ensure the AI-based triage system fits into clincial workflows. Mermaid was introudced as a diagram creation tool. The final submission included a proposal done using these tools.<br> 
 Files located in `docs/week-3/`:
 - `refined-preliminary-proposal.pdf`
+- `triage-flow.md`
+- `triage-flow.png`
 
 
 ## Purpose
