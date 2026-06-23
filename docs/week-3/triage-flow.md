@@ -21,15 +21,15 @@ flowchart TB
     l --> finish
     m --> finish
 
-    ai_1[AI Intervention #1: <br>AI flags critical patients so nurses can prepare before they arrive. ]
+    ai_1[AI Intervention #1: <br>AI flags high-risk alerts to assist nurses for pre-arrival preparation. ]
     ai_1 --- a
 
-    ai_2[AI Intervention #2: <br>AI converts paper-based record to EHR. ]
+    ai_2[AI Intervention #2: <br>AI automates digitizing paper records into the EHR for clinician review. ]
     ai_2 --- b
 
-    ai_3[AI Intervention #3: <br>AI predicts most likely ESI category based on patient information.]
+    ai_3[AI Intervention #3: <br>AI suggests an advisory ESI category for the nurse's final validation.]
     ai_3 --- e
 
-    ai_4[AI Intervention #4: <br>AI predicts likliehood of patient deterioration in the next 30 days.]
-    ai_4 --- j
+    ai_4[AI Intervention #4: <br>AI provides a 30-day deterioration risk score to guide clinical decison-making.]
+    ai_4 --- j  
 ```
