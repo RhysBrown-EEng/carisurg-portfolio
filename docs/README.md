@@ -24,13 +24,18 @@ This section explored the use of Zotero and Git to enhance project workflows. Th
 Files located in `docs/week-2/`:
 - `updated-preliminary-proposal.pdf`
   
-- ### Week 3 - Healthcare Workflows & Systems Thinking
+### Week 3 - Healthcare Workflows & Systems Thinking
 This section explored the system think to ensure the AI-based triage system fits into clincial workflows. Mermaid was introudced as a diagram creation tool. The final submission included a proposal done using these tools.<br> 
 Files located in `docs/week-3/`:
 - `refined-preliminary-proposal.pdf`
 - `triage-flow.md`
 - `triage-flow.png`
 
+### Week 4 - Ethics, Safety & Risk Awareness in Healthcare Technology
+This section explored managing risk for patients in the context of our AI system. The literature review was then updated to its final form to contain 15+ papers. <br>
+Files located in `docs/week-4/`:
+- `risk-register.md`
+- `ai-harm-case.md`
 
 ## Purpose
 
