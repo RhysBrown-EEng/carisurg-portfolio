@@ -36,6 +36,7 @@ This section explored managing risk for patients in the context of our AI system
 Files located in `docs/week-4/`:
 - `risk-register.md`
 - `ai-harm-case.md`
+- `final-preliminary-proposal.pdf`
 
 ## Purpose
 
