@@ -38,6 +38,14 @@ Files located in `docs/week-4/`:
 - `ai-harm-case.md`
 - `final-preliminary-proposal.pdf`
 
+### Week 5 - AI-Assisted Triage: Data Exploration (Part 1 of 2)
+This section explored the use of notebooks to explore a dataset and determine its feasibility for model development. <br>
+Files/Folders located in `docs/week-5/`:
+- `figs/`
+- `feasibility-memo-outline.md`
+- `week-5-feasibility.md`
+- `week-5-feasibility.pdf`
+- 
 ## Purpose
 
 These documents translate technical analysis into clinically meaningful insights for:

@@ -23,6 +23,12 @@ Files located in `notebooks/week-0/`:
 - `assignment1_gender_data_cleaning.ipynb`
 - `assignment2_dbp_data_cleaning.ipynb`
 - `assignment3_data_visualization.ipynb` <br>
+- 
+### Week 5 -  AI-Assisted Triage: Data Exploration (Part 1 of 2)
+This section contains notebooks focused on data exploration, visualization of a feasibility assessment of a triage dataset.  <br>
+Files located in `notebooks/week-5/`:
+- `exploration-and-visualization.ipynb`
+<br>
 
 ## Purpose
 
