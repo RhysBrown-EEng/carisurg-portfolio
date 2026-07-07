@@ -9,19 +9,19 @@ Name: Rhys Brown
 
 ## **Data Summary**
 
-The dataset contains the triage data associated with 55,121 emergency department encounters within the United States. It shows Emergency Severity Index (ESI) along with 225 other features; 200 of the features relate to the presence or absence of specific chief complaints from a patient while the other 25 relate to other factors such as vital signs. Preliminary data exploration identified 29 obviously clinically impossible values within the dataset, 25 of which belonged to the glucose column and 4 which belonged to respiratory rate. 
+The dataset contains the triage data associated with 55,121 emergency department encounters within the United States. It shows Emergency Severity Index (ESI) along with 225 other features; 200 of the features relate to the presence or absence of specific chief complaints from a patient while the other 25 relate to other factors such as vital signs. Preliminary data exploration identified 29 obviously clinically impossible values within the dataset, 25 of which belonged to the glucose column and 4 which belonged to respiratory rate as seen in *Figure 7*. 
 
 ### **Major Feature Summary**
 - **225** Features relating to ESI.
 - Only **29** clinically impossible values, observed in roughly **0.05%** of all cases.
-- ESI level 1 and 5 only make up roughly **0.13%** and **2%** of the total cases respectively.
+- ESI level 1 and 5 only make up roughly **0.13%** and **2%** of the total cases respectively as seen in *Figure 2* and *Figure 3*.
 
 
 ## **Top 3 Concerns**
 
 The dataset has three (3) major concerns that affect its applicability in the context of Caribbean Triage:
 ### **1. No Minors in Dataset**
-- **Risk:** The dataset has no minors (people under the age of 18).
+- **Risk:** The dataset has no minors (people under the age of 18) as seen in *Figure 2*.
 - **Impact:** The model has no basis to accurately evaluate paediatric trends. This would make the risk that the model is unsafe to use with children unacceptably high.
 - **Mitigation:** Any models trained on the dataset must be externally validated on a paediatric sample before deployment.
 ### **2. America-centric Demographics**
@@ -29,7 +29,7 @@ The dataset has three (3) major concerns that affect its applicability in the co
 - **Impact:** The observed demographic distribution does not reflect that of most Caribbean islands. As such the disease patterns and patient presentation present in the dataset may not transfer directly to the Caribbean.
 - **Mitigation:** Any resulting models trained on the dataset must be externally validated on a representative dataset from a Caribbean emergency department before being deployed in the region.
 ### **3. Class Imbalance in Acuity Level**
-- **Risk:** The dataset has limited examples of ESI level 1 and 5.
+- **Risk:** The dataset has limited examples of ESI level 1 and 5 as seen in *Figure 2* and *Figure 3*.
 - **Impact:** This may cause any model trained on the dataset to be biased toward the more common ESI level 3. This may lead to poor sensitivity for critical cases, possibly increasing the rate of mistriage. 
 - **Mitigation:** Specific sampling techniques can be employed to mitigate the class imbalance. For example, smaller classes can be sampled at a higher rate.
 
@@ -39,9 +39,9 @@ That said, the dataset still has many qualities that make it a valuable training
 ### **1. Patient Chief Complaints Exposed**
 The dataset shows the chief complaints of patients. Many datasets only show vitals thus limiting the features that can be used in ESI prediction. Chief complaints reflect information directly used by triage nurses to determine acuity level. 
 ### **2. No Missing Values**
-The dataset has no missing values, meaning that all 55,121 records can be used to train and test the model with minimal required preprocessing. 
+The dataset has no missing values (*Figure 1*), meaning that all 55,121 records can be used to train and test the model with minimal required preprocessing. 
 ### **3. Most Values are Clinically Plausible**
-The dataset has the advantage of minimal data entry errors; most values are within the realm of plausibility. This suggests the dataset is of generally good quality.
+The dataset has the advantage of minimal data entry errors; most values are within the realm of plausibility as seen in as seen in *Figure 7*. This suggests the dataset is of generally good quality.
 
 ## **Caveats**
 
