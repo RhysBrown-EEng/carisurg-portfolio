@@ -45,7 +45,12 @@ Files/Folders located in `docs/week-5/`:
 - `feasibility-memo-outline.md`
 - `week-5-feasibility.md`
 - `week-5-feasibility.pdf`
-- 
+
+### Week 6 - Building a Baseline Model (Part 2 of 2)
+This section explored the development of baseline machine learning models trained to evaluate triage levels. The importance of metrics like recall are also explored. Confusion Matrix figures are also featured in this week. <br>
+Files/Folders located in `docs/week-6/`:
+- `figs/`
+
 ## Purpose
 
 These documents translate technical analysis into clinically meaningful insights for:

@@ -30,6 +30,12 @@ Files located in `notebooks/week-5/`:
 - `exploration-and-visualization.ipynb`
 <br>
 
+### Week 6 -  Building a Baseline Model (Part 2 of 2)
+This section contains notebooks focused on developing and evaluating baseline machine learning models for the task of triage level evaluation.  <br>
+Files located in `notebooks/week-6/`:
+- `baseline_ml_models.ipynb`
+<br>
+
 ## Purpose
 
 These notebooks combine clinical theory, data science and machine learning methods to produce practical, data-driven insights relevant to healthcare decision-making for:
