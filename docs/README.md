@@ -50,6 +50,7 @@ Files/Folders located in `docs/week-5/`:
 This section explored the development of baseline machine learning models trained to evaluate triage levels. The importance of metrics like recall are also explored. Confusion Matrix figures are also featured in this week. <br>
 Files/Folders located in `docs/week-6/`:
 - `figs/`
+- `week-6-baseline.md`
 
 ## Purpose
 
