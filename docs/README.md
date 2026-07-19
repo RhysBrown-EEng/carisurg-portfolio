@@ -52,6 +52,12 @@ Files/Folders located in `docs/week-6/`:
 - `figs/`
 - `week-6-baseline.md`
 
+### Week 7 – Model Optimisation & Trade-offs
+This section explored the development of advanced machine learning models trained to evaluate triage levels. Random Forest, Gradient Boosting and Multi-Layer Perceptron Classifiers were used. <br>
+Files/Folders located in `docs/week-7/`:
+- `figs/`
+- `benchmark-table.md`
+
 ## Purpose
 
 These documents translate technical analysis into clinically meaningful insights for:

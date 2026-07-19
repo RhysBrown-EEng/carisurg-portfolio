@@ -27,13 +27,19 @@ Files located in `notebooks/week-0/`:
 ### Week 5 -  AI-Assisted Triage: Data Exploration (Part 1 of 2)
 This section contains notebooks focused on data exploration, visualization of a feasibility assessment of a triage dataset.  <br>
 Files located in `notebooks/week-5/`:
-- `exploration-and-visualization.ipynb`
+- `exploration_and_visualization.ipynb`
 <br>
 
 ### Week 6 -  Building a Baseline Model (Part 2 of 2)
 This section contains notebooks focused on developing and evaluating baseline machine learning models for the task of triage level evaluation.  <br>
 Files located in `notebooks/week-6/`:
 - `baseline_ml_models.ipynb`
+<br>
+
+### Week 7 – Model Optimisation & Trade-offs
+This section contains notebooks focused on developing and evaluating more advanced machine learning classifier models such as Random Forest, Gradient Boosting Models and Multi-Layer Perceptrons.  <br>
+Files located in `notebooks/week-7/`:
+- `advanced_ml_models.ipynb`
 <br>
 
 ## Purpose
