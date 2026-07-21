@@ -14,9 +14,9 @@
 ## **Recap**
 
 ### 1. Dataset
-The dataset contains triage data associated with 55,121 emergency department encounters within the United States. It consists of Emergency Severity Index (ESI) scores alongside 225 features: 200 chief complaint binary variables and 25 vital sign measurements.
+The dataset contains triage data associated with 55,121 emergency department encounters within the United States. It consists of Emergency Severity Index (ESI) scores alongside `225` features: `200` chief complaint binary variables and `25` vital sign measurements.
 
-A major class imbalance exists as the ESI Level 1 and Level 5 cases make up roughly **0.13%** and **2.00%** of the total cases respectively, leaving little data for the models to learn from.
+A major class imbalance exists as the ESI Level 1 and Level 5 cases make up roughly `0.13%` and `2.00%` of the total cases respectively, leaving little data for the models to learn from.
 
 ### 2. Method
 A Dummy Classifier, Decision Tree, and Logistic Regression model were initially trained on the triage data to predict an acuity score. Furthermore, engineered features were mathematically derived from vitals to train a Random Forest, Gradient Boosting, and Multi-Layer Perceptron (MLP) model.
@@ -66,7 +66,7 @@ As seen in *Figure 1*, the Random Forest model has the highest number of class-w
 Although Gradient Boosting `0.38` and Multi-Layer Perceptron `0.31` outperform Random Forest `0.25$` in ESI 1 recall, conversations with medical professionals (e.g., Dr. Loren De Freitas) indicate that ESI 1 cases ush cardiac arrest, severe respiratory failure are immediately self-evident upon arrival. In these emergencies, formal data entry into a software interface is clinically impractical and would likely be bypassed, rendering high ESI 1 algorithmic recall less vital.
 
 ### 3. Decent Explainability
-Random Forest models offer a higher level of explainability than deep neural networks like Multi-Layer Perceptrons. They expose feature importance metric, allowing clinicians to see which vitals or chief complaints drove the prediction. As physicians retain legal liability and final medical responsibility for triage decisions, transparent reasoning is non-negotiable in order to allow thme to validate or override AI recommendations.
+Random Forest models offer a higher level of explainability than deep neural networks like Multi-Layer Perceptrons. They expose feature importance metric, allowing clinicians to see which vitals or chief complaints drove the prediction. As physicians retain legal liability and final medical responsibility for triage decisions, transparent reasoning is non-negotiable in order to allow them to validate or override AI recommendations.
 
 
 ## **Arguments Against Verdict**
@@ -76,12 +76,12 @@ Random Forest models offer a higher level of explainability than deep neural net
 - **Counter-Argument:**  Raw accuracy is driven heavily by majority non-urgent classes. Minimizing under-triage in urgent cases remains the primary safety metric; therefore, a slightly lower overall accuracy is an acceptable trade-off.
 
 ### 2. Long Inference Time
-- The Random Forest model recorded the highest inference time at **18.97 ms**, 2.69 times slower than Gradient Boosting at 7.04ms. This is because the mode consisted of 235 deep trees with a max_depth of 96.
+- The Random Forest model recorded the highest inference time at `18.97 ms`, 2.69 times slower than Gradient Boosting at 7.04ms. This is because the mode consisted of `235` deep trees with a max_depth of `96`.
 - **Counter-Argument:**  At under on 50th of a second, computational latency is not the rate-limiting step within the system as data entry by triage staff would take far longer.
 
 ### 3. Long Training Time
-- Random Forest had the longest training duration (**26.40 mins**) due to extensive hyperparameter optimization.
-- **Counter-Argument:**  model training is a one-time offline process performed prior to deployment and does not impact real-time clinical operation.
+- Random Forest had the longest training duration (`26.40 minutes`) due to extensive hyperparameter optimization.
+- **Counter-Argument:**  model training is a one-time offline process performed prior to deployment and does not impact real-time clinical operation. Moreover, 26.40 minutes is a relatively small time investment compared to most advanced machine learning models.
 
 
 
