@@ -58,6 +58,7 @@ Files/Folders located in `docs/week-7/`:
 - `figs/`
 - `benchmark-table.md`
 - `cost-benefit-memo.md`
+- `cost-benefit-memo.pdf`
 
 ## Purpose
 
