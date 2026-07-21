@@ -57,6 +57,7 @@ This section explored the development of advanced machine learning models traine
 Files/Folders located in `docs/week-7/`:
 - `figs/`
 - `benchmark-table.md`
+- `cost-benefit-memo.md`
 
 ## Purpose
 
