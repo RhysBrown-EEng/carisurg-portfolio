@@ -40,9 +40,9 @@ cd carisurg-portfolio
 | Step | Windows | macOS / Linux | Git Bash      |
 |------|--------|----------------|----------------|
 | Create virtual environment | `python -m venv .venv` | `python3 -m venv .venv` | `python -m venv .venv` |
-| Activate virtual environment | `.venv\Scripts\activate` | `source .venv/bin/activate` | `source .venv/bin/activate` |
+| Activate virtual environment | `.venv\Scripts\activate` | `source .venv/bin/activate` | `source .venv/Scripts/activate` |
 
-3. Install the dependencies:
+1. Install the dependencies:
 ```
 pip install -r requirements.txt
 ```
