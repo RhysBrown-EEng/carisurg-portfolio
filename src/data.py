@@ -2,8 +2,7 @@ import pandas as pd
 import numpy as np
 
 def load_clean_df(path):
-
-
+    
     df_raw = pd.read_csv(path, index_col=0)
 
     VITALS = ["triage_vital_hr", "triage_vital_sbp", "triage_vital_dbp", "triage_vital_rr",
