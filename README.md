@@ -45,7 +45,7 @@ cd carisurg-portfolio
 | Create virtual environment | `python -m venv .venv` | `python3 -m venv .venv` | `python -m venv .venv` |
 | Activate virtual environment | `.venv\Scripts\activate` | `source .venv/bin/activate` | `source .venv/Scripts/activate` |
 
-1. Install the dependencies:
+3. Install the dependencies:
 ```
 pip install -r requirements.txt
 ```
