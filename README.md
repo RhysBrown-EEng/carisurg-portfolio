@@ -28,9 +28,9 @@ carisurg-portfolio/
 |------------|-------------|
 | `data/` | Datasets required to reproduce the analyses. Specific data files are not included in this repository. See [Data](#data) and [How to Use](#how-to-use) for more details.|
 | `docs/` |  Reports, proposals and written assignments completed during the programme. |
-| `notebooks/` | Jupyter notebooks containing data preprocessing, data analysis and other project-related code. |
-| `src/` | Source code and reusable Python scripts. |
-| `scripts` | Folder that contains `train.py` the entry-point to this repo. |
+| `notebooks/` | Jupyter notebooks containing data preprocessing, data analysis and other exploratory project-related code. |
+| `src/` | Source code and reusable Python scripts for building and evaluating the finalized models. |
+| `scripts` | Folder that contains `train.py`, the entry-point to this repo. |
 
 ## Installation
 1. Clone the repository and open it:
