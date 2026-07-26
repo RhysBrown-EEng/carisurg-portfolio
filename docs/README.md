@@ -59,6 +59,12 @@ Files/Folders located in `docs/week-7/`:
 - `benchmark-table.md`
 - `cost-benefit-memo.md`
 - `cost-benefit-memo.pdf`
+- 
+### Week 8 – Reproducibility & Modular Project Design
+This section documents the successes of all completed models.
+Files/Folders located in `docs/week-8/`:
+- `final-benchmark-table.md`
+
 
 ## Purpose
 

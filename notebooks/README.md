@@ -42,6 +42,12 @@ Files located in `notebooks/week-7/`:
 - `advanced_ml_models.ipynb`
 <br>
 
+### Week 8 – Reproducibility & Modular Project Design
+This section takes the notebook from last week and appends two more models.  <br>
+Files located in `notebooks/week-8/`:
+- `final_ml_models.ipynb`
+<br>
+
 ## Purpose
 
 These notebooks combine clinical theory, data science and machine learning methods to produce practical, data-driven insights relevant to healthcare decision-making for:
