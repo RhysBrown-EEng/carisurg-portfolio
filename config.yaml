@@ -3,19 +3,19 @@ data:
   raw_path: "data/yaleemmlc_admissionprediction_triage.csv"
   target: "esi"
 final_models: ["random_forest", "logistic_regression", "ensemble"]
-models:
+params:
   random_forest:
     n_estimators: 235
-    max_depth: 96,
+    max_depth: 96
     max_features: 'sqrt'
     min_samples_leaf: 5
     min_samples_split: 6
     class_weight: 'balanced'
   logistic_regression:
-    penalty: 'elasticnet'
     l1_ratio: 0.5
     C: 1.0
     solver: 'saga'
-    max_iter: 200
+    max_iter: 300
   ensemble:
-    best_weights: [1.61, 1]
+    weights: [1.61, 1]
+    voting: "soft"

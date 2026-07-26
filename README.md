@@ -12,11 +12,13 @@ This project is intended for programme tutors, clinical and technical reviewers,
 ```text id="structure"
 carisurg-portfolio/
 │
+├── scripts/train.py
 ├── data/
 ├── docs/
 ├── notebooks/
 ├── src/
 ├── .gitignore
+├── config.yaml
 ├── requirements.txt
 ├── LICENSE
 └── README.md
@@ -28,6 +30,7 @@ carisurg-portfolio/
 | `docs/` |  Reports, proposals and written assignments completed during the programme. |
 | `notebooks/` | Jupyter notebooks containing data preprocessing, data analysis and other project-related code. |
 | `src/` | Source code and reusable Python scripts. |
+| `scripts` | Folder that contains `train.py` the entry-point to this repo. |
 
 ## Installation
 1. Clone the repository and open it:
