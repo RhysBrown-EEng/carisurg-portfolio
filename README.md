@@ -31,7 +31,8 @@ carisurg-portfolio/
 | `docs/` |  Reports, proposals and written assignments completed during the programme. |
 | `notebooks/` | Jupyter notebooks containing data preprocessing, data analysis and other exploratory project-related code. |
 | `src/` | Source code and reusable Python scripts for building and evaluating the finalized models. |
-| `scripts` | Folder that contains `train.py`, the entry-point to this repo. |
+| `scripts/` | Folder that contains `train.py`, the entry-point to this repo. |
+| `tests/` | Folder that contains pytests for final macine learning pipeline. |
 
 ## Installation
 1. Clone the repository and open it:
