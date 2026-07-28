@@ -14,6 +14,7 @@ carisurg-portfolio/
 │
 ├── scripts/train.py
 ├── data/
+├── tests/
 ├── docs/
 ├── notebooks/
 ├── src/
