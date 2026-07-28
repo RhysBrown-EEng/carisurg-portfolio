@@ -5,7 +5,8 @@ This project is a machine learning model trained to triage patients. It uses pat
 
 
 ## 2. Final-Model Decision
-The Ensemble Model won due to it having the highest recall and the highest aggregate accuracy across ESI class 2-5.
+> [!IMPORTANT]
+> The Ensemble Model won due to it having the highest macro F1-score and the highest aggregate accuracy across ESI class 2-5.
 
 ## 3. How to Run
 1. Clone the repository and open it:
@@ -34,13 +35,18 @@ Windows | `python scripts/train.py --config config.yaml` |
 
 
 ## 4. Where the Data Lives
-The data is stored in `data/` however it is not tracked via Git due to restrictions regarding medical data. 
+- The data is stored in `data/` however it is not tracked via Git due to restrictions regarding medical data. 
 
 
 ## 5. Known Limitations
-- Model still unverified on a Caribbean cohort.
-- Demographics almost entirely unconsidered.
-- ESI-1 recall still modest.
+### 5.1 Unverified on Caribbean Cohort
+The performance of th model is still unverified on a Caribbean cohort. The dataset contained a sample of the population of the United States of America which has many demographic differences compared to the Caribbean. This means that the model's ability to generalise and perform well on local populations is not guaranteed. 
+
+### 5.2 Demographics Unconsidered on Caribbean Cohort
+The model only considers Age and Gender due to specific clinical reasons. Other metrics were deemed unnecessary but further research may deem them to be useful.
+
+### 5.3 Demographics Unconsidered on Caribbean Cohort
+The recall for the ESI-1 (highest acuity level) remains modest. This is an important limitation to keep in mind; however, the performance on the ESI-1 class is relatively unimportant. Medical professionals have stated that such cases are so readily obvious that the model is rendered unnecessary and cumbersome.
 
 ## 6. Who to Ask
 Refer questions to
