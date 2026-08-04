@@ -24,17 +24,19 @@ week-9/
 ├── hci-mockup-screenshot.png
 ├── hci-mockup-sketch.jpeg
 ├── system-requirements.md
+├── safety-considerations.md
 ├── Emergency Triage Kiosk UI.make
 └── README.md
 ```
 
 | File | Description |
 |------------|-------------|
-| `hci-co-canvas.pdf` | Datasets required to reproduce the analyses. Specific data files are not included in this repository. See [Data](#data) and [How to Use](#how-to-use) for more details.|
-| `hri-co-canvas.pdf` |  Reports, proposals and written assignments completed during the programme. |
-| `hci-mockup-screenshot.png` | Jupyter notebooks containing data preprocessing, data analysis and other exploratory project-related code. |
-| `hci-mockup-sketch.jpeg` | Source code and reusable Python scripts for building and evaluating the finalized models. |
-| `system-requirements.md` | Folder that contains `train.py`, the entry-point to this repo. |
-| `Emergency Triage Kiosk UI.make` | Folder that contains pytests for final macine learning pipeline. |
-| `README.md` | Folder that contains pytests for final macine learning pipeline. |
+| `hci-co-canvas.pdf` | My co-canvas that explores the different elements of the HCI kiosk triaging system. |
+| `hri-co-canvas.pdf` |  My co-canvas that explores the problems to be encountered and goals for a robot in the triage space.  |
+| `hci-mockup-screenshot.png` | The mockup screenshot for the HCI on a kiosh screen. |
+| `hci-mockup-sketch.jpeg` | The sketch for the initial ideation phase of the kiosk. |
+| `system-requirements.md` | The inputs, outputs and system requirements for the HCI kiosk. |
+| `safety-considerations.md` | The safety considerations and failure modes for the HCI and HRI. |
+| `Emergency Triage Kiosk UI.make` | A prototype created via Figma for the Kiosh UI/UX. |
+| `README.md` | This file explains the prototyping files created during week 9. |
 
